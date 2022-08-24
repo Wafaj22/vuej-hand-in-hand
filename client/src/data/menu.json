@@ -1,0 +1,24 @@
+{
+    "data": [ 
+          { "path": "/home", "title": "Home", "icon": "home","type": "link"},
+          { "path": "/profile", "title": "Profile", "icon": "command","type": "link"},
+          {
+            "title": "Donate", "icon": "gift", "type": "sub", "badgeType": "primary", "active": false, "children": [
+              { "path": "/campaigns", "title": "Our Campaigns", "type": "link" }
+            ]
+          },
+          {
+            "title": "Volunteer", "icon": "file-text", "type": "sub", "badgeType": "primary", "active": false, "children": [
+              { "path": "/opportunities", "title": "Our Opportunities", "type": "link" }
+            ]
+          },
+          {
+            "title": "Supporters", "icon": "heart", "type": "sub", "active": false, "children": [      
+              { "path": "/volunteers", "title": "Our Volunteers", "type": "link" },
+              { "path": "/charities", "title": "Our Charities", "type": "link" }
+            ]
+          },
+          { "path": "/chat", "title": "Chat", "icon": "message-circle","type": "link"}
+	]
+}
+  
